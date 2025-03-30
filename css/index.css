@@ -1675,7 +1675,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: var(--global-font-size);
-  font-family: iris !important;
+  font-family: coding !important;
   border-radius: 6px;
 }
 .container code {
