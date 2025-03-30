@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'iris';
+  font-display: swap;
+  src: url('/fonts/code.ttf') format("truetype");  
+}
+@font-face {
+  font-family: 'vannesa';
+  font-display: swap;
+  src: url('/fonts/MitypeMonoVF.ttf') format("truetype");  
+}
