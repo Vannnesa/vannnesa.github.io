@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'coding';
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/Vannnesa/vannnesa.github.io@gh-pages/font/CascadiaMonoItalic.ttf') format("truetype");
+}
+@font-face{
+    font-family: 'vannesa';
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/Vannnesa/vannnesa.github.io@gh-pages/font/xiaowei.ttf') format("truetype");
+}
+body {
+    font-family: 'coding','vannesa';
+}

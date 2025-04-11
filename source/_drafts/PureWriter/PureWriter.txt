@@ -1,0 +1,37 @@
+[Alist的源码魔改]
+　　首先 要魔改必须得先拉取源码
+````bash
+git clone --recurse-submodules https://git.xn--z0s.top/https://github.com/AlistGo/alist-web.git
+````
+注意是alist-web,不是alist()
+
+然后打开src\components\FullLoading.tsx,开修!
+````
+//在第11行左右:
+---
+emptyColor="$neutral4"
+---
++++
+emptyColor="tomato"
+//emptyColor="$neutral4"
++++
+
+//在第38行左右:
+//同样地 也是改emptyColor
+---
+emptyColor="$neutral4"
+---
++++
+emptyColor="tomato"
+//emptyColor="$neutral4"
++++
+
+
+//在第61行左右:
+---
+<Spinner color="{getMainColor()}" {...props} />
+---
++++
+<Spinner color="tomato" {...props} />
++++
+````
