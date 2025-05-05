@@ -1,13 +1,13 @@
 @font-face{
-    font-family: 'coding';
+    font-family: 'JetBrains Mono';
     font-display: swap;
-    src: url('/font/CascadiaMonoItalic.ttf') format("truetype");
+    src: url('../font/JetBrainsMono-Regular.ttf') format("truetype");
 }
 @font-face{
-    font-family: 'vannesa';
+    font-family: 'HarmonyOS Sans SC';
     font-display: swap;
-    src: url('/font/xiaowei.ttf') format("truetype");
+    src: url('../font/HarmonyOS_Sans_SC_Regular.ttf') format("truetype");
 }
 body {
-    font-family: 'coding','vannesa';
+    font-family: 'JetBrains Mono','HarmonyOS Sans SC';
 }
